@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 14 12:22:00 2022
+
+@author: amanda
+"""
+
+// PART A //
+1. The coefficient of determination, which determines the proportion of variability in a data set that is accounted for by the model,
+is closer to 1 when analyzing the yearly average. When analyzing the yearly average, the R-squared value is 0.18895, meaning
+about 19% of the variability is accounted for in the model. When looking at just one day, the R-squared value is 0.05348, meaning 
+only about 5% of variablitity is accounted for in the model. Neither of these models have particulary high R-squared values, though, but 
+calculating the yearly average does a better job.
+
+2. The data could be noisy for a variety of reasons. One reason the data could be so noisy is because it is a relatively small sample size. It 
+is just one city with a range of around 50 years. Looking at a larger time frame or at multiple cities might make the data less noisy. It looks like the data for a particular 
+day is more noisy than the yearly average- the model is worse at accounting for variability. Additionally, the SE/Slope for the specific day is 0.61368, meaning 
+that the trend is more likely caused by chance.
+
+3. The graph of one specific day does not compellingly support the claim of global warming. SE/Slope is 0.61368, meaning that the trend we see is more likely to
+be caused by chance than the model. The yearly average data does a better job of supporting the claim because its SE/Slope is 0.30220 which means that the 
+trend we see is not likely to be caused by chance. It also has a positive slope, meaning that we expect to see an increase in temperature over time.
+
+//PART B//
+1. This graph has an R-squared value of 0.74616, meaning that about 75% of the variability in the data is accounted for by the model. The SE/Slope is 0.0851 
+which means that this trend is not likley to be caused by chance. This means that this model is a better fit than the previous models. It also has a steeper slope 
+and because the slope is positive and our results indicate this is a better model, this graph serves as a better supporting piece of evidence for global warming's affect
+on temperature.
+
+2. This is likely because it is coming from a larger data set, including all of the  21 cities, not just New York, making the data less noisy.
+
+3. If we used three different cities, the data would probably be noisier and if we used 100 cities it would probably be an even better fit with less noise.
+
+4. I think if all of the 21 cities were in the same region, the data would be less noisy because they all have similar climates and a smaller range of temperatures.
+
+//PART C//
+1. This graph has an R-squared value of 0.92498, meaning that about 92% of the variability in the data can be accounted for by the model. It also has an SE/Slope 
+value of 0.04154 which means that the model is unlikely to be caused by chance. Because these indicators are stronger than previous models, this model serves as a good 
+piece of supporting evidence that temperatures are rising. 
+
+2. I think this is because this model is taking 5 year averages of each year, which makes individual differences each year less prominent and it emphasizes the overall trend.
+
+//PART D//
+1. The linear model has an R-squared of 0.92498 and the quadratic model has an R-squared value 0.94482. This means that the quadratic model fits the data better, because
+about 94% of the variability in the data can be accounted for by the model.
+
+2. The predictive models did not perform all that well. The linear model has an RMSE of 0.0884 which is smaller than the quadratic model's RMSE value of 0.2118. 
+The smaller the RMSE means that the actual data was closer to the predicted values.
+
+//PART E//
+1. No, this model does not support the hypothesis that temperature variation is increasing overtime. THe standard deviation is getting smaller as time goes on, suggesting
+that the variation in termperature is decreasing. 
+2. One way to improve the analysis would be to stratify based on region so that changes in different regions would not cancel each other out. Another way would be to measure the 
+change in temperature from the day before to be able to show how much the temperatures are changing day to day. 
