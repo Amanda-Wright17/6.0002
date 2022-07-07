@@ -4,4 +4,4 @@ p4.py: pset solution, written by Amanda Wright
 
 ps4_writeup.txt: pset solution, written by Amanda Wright
 
-ps4_tests.py: test code, provided by MIT
+ps4_tests.py: test cases, provided by MIT
