@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 16 11:35:52 2022
+
+@author: amanda
+"""
+
+Problem A.5: Writeup
+
+1. Based on compare_cow_transport_alogrithms, my greedy algortihm used 6 trips 
+([['Betsy'], ['Henrietta'], ['Herman', 'Maggie'], ['Oreo', 'Moo Moo'], 
+['Millie', 'Milkshake', 'Lola'], ['Florence']])
+
+and the brute force algorithm used only 5 trips
+([['Henrietta'], ['Lola', 'Millie', 'Moo Moo'], ['Betsy'], ['Herman', 'Maggie'], 
+['Milkshake', 'Florence', 'Oreo']]). 
+
+The greedy algorithm runs much quicker, because it runs on the order of O(nlogn). 
+The brute force method runs exponentially, therefore taking mmuch longer to complete.
+
+2. It depends on how you define optimal. If computational efficiency is what
+you  want to maximize, then the greedy algorithm is optimal because it runs much
+quicker than the brute force method. But, if you want to find a globally optimal
+solution to the issue of transporting cows, then this is not the optimal method.
+
+3. Similarly, it depends on how you define optimal. This method is computationally
+far less efficient than the greedy algorithm, but it does produce the globally optimal
+solution to transporting the cows in the fewest number of trips. 
